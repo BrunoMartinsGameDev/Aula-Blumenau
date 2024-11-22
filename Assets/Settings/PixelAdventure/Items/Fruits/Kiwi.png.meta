@@ -586,7 +586,24 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      Kiwi_0: 4138223980208024357
+      Kiwi_1: 4027297436301884547
+      Kiwi_10: 1065612581672122212
+      Kiwi_11: -3489895863418248697
+      Kiwi_12: 1055780198316226049
+      Kiwi_13: 6147472920748202901
+      Kiwi_14: 4395527864148419765
+      Kiwi_15: -3046725879948077466
+      Kiwi_16: -6983844126893656030
+      Kiwi_2: 7839148961451991454
+      Kiwi_3: -730248880921602624
+      Kiwi_4: -2773199153295840776
+      Kiwi_5: 433390274577684119
+      Kiwi_6: -4823085682731260845
+      Kiwi_7: 3686063136471726221
+      Kiwi_8: 7554967952476731917
+      Kiwi_9: -2447911064218208986
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

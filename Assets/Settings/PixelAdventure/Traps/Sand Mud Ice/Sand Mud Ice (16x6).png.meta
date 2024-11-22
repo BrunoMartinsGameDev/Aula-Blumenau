@@ -236,7 +236,10 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      Sand Mud Ice (16x6)_0: -6353259541176127035
+      Sand Mud Ice (16x6)_1: 6167641977362757515
+      Sand Mud Ice (16x6)_2: 3626576778737192768
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

@@ -1011,7 +1011,41 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      Start (Moving) (64x64)_0: 4612172629948362417
+      Start (Moving) (64x64)_1: 5719465518792859888
+      Start (Moving) (64x64)_10: 4273622735083888487
+      Start (Moving) (64x64)_11: -2053020197276343620
+      Start (Moving) (64x64)_12: 2059557743127933064
+      Start (Moving) (64x64)_13: 6584106804986760886
+      Start (Moving) (64x64)_14: -8264053262935308319
+      Start (Moving) (64x64)_15: 6183351285161404023
+      Start (Moving) (64x64)_16: 7763743175354702852
+      Start (Moving) (64x64)_17: -7442922187208969973
+      Start (Moving) (64x64)_18: 2346321709029074641
+      Start (Moving) (64x64)_19: -4318927372992995709
+      Start (Moving) (64x64)_2: 8098369405238339434
+      Start (Moving) (64x64)_20: -2858054172213702093
+      Start (Moving) (64x64)_21: 6578511159091935571
+      Start (Moving) (64x64)_22: -2003313035198755111
+      Start (Moving) (64x64)_23: -835910813806544225
+      Start (Moving) (64x64)_24: -4196936128768423579
+      Start (Moving) (64x64)_25: -6030589345069940252
+      Start (Moving) (64x64)_26: 48062190786739851
+      Start (Moving) (64x64)_27: -5054338129355282586
+      Start (Moving) (64x64)_28: -8887891215852925119
+      Start (Moving) (64x64)_29: 4274116354162671447
+      Start (Moving) (64x64)_3: -2185004221920062792
+      Start (Moving) (64x64)_30: -5777544825618692246
+      Start (Moving) (64x64)_31: -635109499235108279
+      Start (Moving) (64x64)_32: -2098294932425527222
+      Start (Moving) (64x64)_33: -1211383095262384671
+      Start (Moving) (64x64)_4: 1959960051128207467
+      Start (Moving) (64x64)_5: 3185903466064448317
+      Start (Moving) (64x64)_6: -556790594751862936
+      Start (Moving) (64x64)_7: -979405774348968759
+      Start (Moving) (64x64)_8: -1941286421690932728
+      Start (Moving) (64x64)_9: -3085381186346249065
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
