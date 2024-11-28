@@ -1,3 +1,4 @@
+using Unity.VisualScripting;
 using UnityEngine;
 
 // Classe Personagem herda de MonoBehaviour, o que permite que ela seja usada como um script em GameObjects no Unity.
@@ -92,5 +93,32 @@ public class Personagem : MonoBehaviour
 
         // Aplica a nova escala ao transform.
         transform.localScale = localScale;
+    }
+    private void OnTriggerEnter2D(Collider2D other)
+    {
+        //Quando entrar no trigger acontece algo
+    }
+    private void OnTriggerExit2D(Collider2D other)
+    {
+        //Quando sair do trigger acontece algo
+    }
+    private void OnTriggerStay2D(Collider2D other)
+    {
+        //Enquanto ficar no trigger acontece algo
+    }
+    private void OnCollisionEnter2D(Collision2D other)
+    {
+        //Quando entrar na colisão acontece algo
+    }
+    private void OnCollisionStay2D(Collision2D other)
+    {
+        //Enquanto ficar na colisão acontece algo
+    }
+    private void OnCollisionExit2D(Collision2D other)
+    {
+        //Quando sair da colisão acontece algo
+        if (other.gameObject.CompareTag("Inimigo"))
+        {
+        }
     }
 }
