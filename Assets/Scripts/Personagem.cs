@@ -113,11 +113,17 @@ public class Personagem : MonoBehaviour
     {
         //Enquanto ficar na colisão acontece algo
     }
+    private void OnCollisionExit(Collision other) {
+        if(other.gameObject.CompareTag("Inimigo")){
+            
+        }
+    }
     private void OnCollisionExit2D(Collision2D other)
     {
-        //Quando sair da colisão acontece algo
-        // if (other.gameObject.CompareTag("Inimigo"))
-        // {
-        // }
+//        Quando sair da colisão acontece algo
+        if (other.gameObject.CompareTag("Inimigo"))
+        {
+
+        }
     }
 }
