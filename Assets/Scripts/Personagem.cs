@@ -1,4 +1,3 @@
-using Unity.VisualScripting;
 using UnityEngine;
 
 // Classe Personagem herda de MonoBehaviour, o que permite que ela seja usada como um script em GameObjects no Unity.
@@ -117,8 +116,8 @@ public class Personagem : MonoBehaviour
     private void OnCollisionExit2D(Collision2D other)
     {
         //Quando sair da colisão acontece algo
-        if (other.gameObject.CompareTag("Inimigo"))
-        {
-        }
+        // if (other.gameObject.CompareTag("Inimigo"))
+        // {
+        // }
     }
 }
