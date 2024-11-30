@@ -21,17 +21,20 @@ public class PlayerInputHandler : MonoBehaviour
     public void OnMove(InputValue input)
     {
         direction = input.Get<Vector2>();
-        
+        print(direction);
         AudioManager.instance.PlayAudio(som2);
     }
+    public void OnAttack(){
+        print("atacou");
+    }
     public void OnNavigate(InputValue input){
-        // print("movimento: " + input.Get<Vector2>());
+        print("movimento: " + input.Get<Vector2>());
     }
     public void OnJump(){
         // print("pulou!!!");
         AudioManager.instance.PlayAudio(som);
                      // objeto     //posicao inicial    //rotacao inicial
-        // Instantiate(rb.gameObject,transform.position,Quaternion.identity);
+        Instantiate(rb.gameObject,transform.position,Quaternion.identity);
     }
     private void HandleMove()
     {
@@ -39,7 +42,6 @@ public class PlayerInputHandler : MonoBehaviour
         direction = direction.normalized;
         direction = new Vector2(direction.x * speed * Time.deltaTime, rb.linearVelocityY);
         rb.linearVelocityX = direction.x;
-        print("movimento: " + direction);
     }
 
 
